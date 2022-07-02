@@ -2,13 +2,16 @@
 
 /**
 *main - prints all possible different combinations of two digits.
-*Retun: ALways 0
+*Return: ALways 0
 */
 int main(void)
+
 {
+
 int i, e;
 i = 48;
 e = 48;
+
 while (e < 58)
 {
 i = 48;
