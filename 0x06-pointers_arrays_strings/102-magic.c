@@ -2,7 +2,7 @@
 /**
 * main - prints numbers
 * you are not allowed to use a
-* Return: void
+* Return: 0
 */
 
 int main(void)
