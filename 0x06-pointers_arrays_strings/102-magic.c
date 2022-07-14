@@ -1,9 +1,4 @@
 #include <stdio.h>
-/**
-* main - prints numbers
-* you are not allowed to use a
-* Return: 0
-*/
 
 int main(void)
 {
@@ -13,7 +8,6 @@ int *p;
 
 a[2] = 1024;
 p = &n;
-
 /*
 * write your line of code here...
 * Remember:
