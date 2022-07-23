@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
 * main - prints the minimum number of coins to make change for an amount.
 * of money.
@@ -8,7 +7,6 @@
 * @argv: array that contains the program command line arguments.
 * Return: 0 - success.
 */
-
 int main(int argc, char *argv[])
 {
 	int cents, ncoins = 0;
@@ -32,7 +30,7 @@ int main(int argc, char *argv[])
 			cents -= 2;
 		else if (cents >= 1)
 			cents -= 1;
-			ncoins += 1;
+		ncoins += 1;
 	}
 	printf("%d\n", ncoins);
 	return (0);
