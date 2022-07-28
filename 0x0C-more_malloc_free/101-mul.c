@@ -65,7 +65,6 @@ int _checknum(char *argv[], int n)
 			printf("Error\n");
 			exit(98);
 		}
-
 	return (ln);
 }
 /**
@@ -117,6 +116,5 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%s\n", nout);
-
 	return (0);
 }
